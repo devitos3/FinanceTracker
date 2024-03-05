@@ -1,0 +1,351 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|c:\\users\\dejajod\\source\\repos\\tracker\\controllers\\userdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|solutionrelative:controllers\\userdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|c:\\users\\dejajod\\source\\repos\\tracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|c:\\users\\dejajod\\source\\repos\\tracker\\services\\userdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|solutionrelative:services\\userdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|c:\\users\\dejajod\\source\\repos\\tracker\\repository\\expenserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|solutionrelative:repository\\expenserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|c:\\users\\dejajod\\source\\repos\\tracker\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|c:\\users\\dejajod\\source\\repos\\tracker\\services\\interfaces\\iuserdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|solutionrelative:services\\interfaces\\iuserdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|c:\\users\\dejajod\\source\\repos\\tracker\\repository\\interfaces\\iexpenserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|solutionrelative:repository\\interfaces\\iexpenserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|c:\\users\\dejajod\\source\\repos\\tracker\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|solutionrelative:models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|c:\\users\\dejajod\\source\\repos\\tracker\\models\\income.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|solutionrelative:models\\income.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|c:\\users\\dejajod\\source\\repos\\tracker\\repository\\goalrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|solutionrelative:repository\\goalrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|c:\\users\\dejajod\\source\\repos\\tracker\\repository\\incomerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|solutionrelative:repository\\incomerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|c:\\users\\dejajod\\source\\repos\\tracker\\controllers\\goalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|solutionrelative:controllers\\goalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|c:\\users\\dejajod\\source\\repos\\tracker\\controllers\\incomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|solutionrelative:controllers\\incomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|c:\\users\\dejajod\\source\\repos\\tracker\\services\\goalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|solutionrelative:services\\goalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|c:\\users\\dejajod\\source\\repos\\tracker\\services\\incomeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|solutionrelative:services\\incomeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|c:\\users\\dejajod\\source\\repos\\tracker\\services\\interfaces\\igoalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|solutionrelative:services\\interfaces\\igoalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|c:\\users\\dejajod\\source\\repos\\tracker\\repository\\interfaces\\igoalrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|solutionrelative:repository\\interfaces\\igoalrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|c:\\users\\dejajod\\source\\repos\\tracker\\repository\\interfaces\\iincomerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6576BD8B-D118-42BA-A395-2EDE28E8823D}|Tracker.csproj|solutionrelative:repository\\interfaces\\iincomerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserDataController.cs",
+              "DocumentMoniker": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Controllers\\UserDataController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserDataController.cs",
+              "ToolTip": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Controllers\\UserDataController.cs",
+              "RelativeToolTip": "Controllers\\UserDataController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T20:16:02.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserDataService.cs",
+              "DocumentMoniker": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Services\\Interfaces\\IUserDataService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IUserDataService.cs",
+              "ToolTip": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Services\\Interfaces\\IUserDataService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IUserDataService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T19:50:35.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExpenseRepo.cs",
+              "DocumentMoniker": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Repository\\ExpenseRepo.cs",
+              "RelativeDocumentMoniker": "Repository\\ExpenseRepo.cs",
+              "ToolTip": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Repository\\ExpenseRepo.cs",
+              "RelativeToolTip": "Repository\\ExpenseRepo.cs",
+              "ViewState": "AQIAAIYAAAAAAAAAAADwv6IAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T19:46:26.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAD0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T13:45:44.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserDataService.cs",
+              "DocumentMoniker": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Services\\UserDataService.cs",
+              "RelativeDocumentMoniker": "Services\\UserDataService.cs",
+              "ToolTip": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Services\\UserDataService.cs",
+              "RelativeToolTip": "Services\\UserDataService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T19:53:55.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAwBIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T19:59:47.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IExpenseRepo.cs",
+              "DocumentMoniker": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Repository\\Interfaces\\IExpenseRepo.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\IExpenseRepo.cs",
+              "ToolTip": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Repository\\Interfaces\\IExpenseRepo.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\IExpenseRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T19:46:22.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Expense.cs",
+              "DocumentMoniker": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Models\\Expense.cs",
+              "RelativeDocumentMoniker": "Models\\Expense.cs",
+              "ToolTip": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Models\\Expense.cs",
+              "RelativeToolTip": "Models\\Expense.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T19:43:08.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Income.cs",
+              "DocumentMoniker": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Models\\Income.cs",
+              "RelativeDocumentMoniker": "Models\\Income.cs",
+              "ToolTip": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Models\\Income.cs",
+              "RelativeToolTip": "Models\\Income.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T19:42:44.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IncomeController.cs",
+              "DocumentMoniker": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Controllers\\IncomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\IncomeController.cs",
+              "ToolTip": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Controllers\\IncomeController.cs",
+              "RelativeToolTip": "Controllers\\IncomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T14:02:50.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GoalService.cs",
+              "DocumentMoniker": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Services\\GoalService.cs",
+              "RelativeDocumentMoniker": "Services\\GoalService.cs",
+              "ToolTip": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Services\\GoalService.cs",
+              "RelativeToolTip": "Services\\GoalService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T14:02:32.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GoalRepo.cs",
+              "DocumentMoniker": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Repository\\GoalRepo.cs",
+              "RelativeDocumentMoniker": "Repository\\GoalRepo.cs",
+              "ToolTip": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Repository\\GoalRepo.cs",
+              "RelativeToolTip": "Repository\\GoalRepo.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAHoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T13:59:33.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GoalController.cs",
+              "DocumentMoniker": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Controllers\\GoalController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GoalController.cs",
+              "ToolTip": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Controllers\\GoalController.cs",
+              "RelativeToolTip": "Controllers\\GoalController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAmwE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T14:03:36.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IncomeService.cs",
+              "DocumentMoniker": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Services\\IncomeService.cs",
+              "RelativeDocumentMoniker": "Services\\IncomeService.cs",
+              "ToolTip": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Services\\IncomeService.cs",
+              "RelativeToolTip": "Services\\IncomeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T14:00:09.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IncomeRepo.cs",
+              "DocumentMoniker": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Repository\\IncomeRepo.cs",
+              "RelativeDocumentMoniker": "Repository\\IncomeRepo.cs",
+              "ToolTip": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Repository\\IncomeRepo.cs",
+              "RelativeToolTip": "Repository\\IncomeRepo.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAAAHUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T13:58:01.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IGoalService.cs",
+              "DocumentMoniker": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Services\\Interfaces\\IGoalService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IGoalService.cs",
+              "ToolTip": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Services\\Interfaces\\IGoalService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IGoalService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T13:57:45.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IGoalRepo.cs",
+              "DocumentMoniker": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Repository\\Interfaces\\IGoalRepo.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\IGoalRepo.cs",
+              "ToolTip": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Repository\\Interfaces\\IGoalRepo.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\IGoalRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T13:57:20.99Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "af155508-6461-4ad3-900b-4ffc9299474d",
+        "Display": 0,
+        "X": 0,
+        "Y": 0,
+        "Width": 1285,
+        "Height": 765,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IIncomeRepo.cs",
+              "DocumentMoniker": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Repository\\Interfaces\\IIncomeRepo.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\IIncomeRepo.cs",
+              "ToolTip": "C:\\Users\\DEJAJOD\\source\\repos\\Tracker\\Repository\\Interfaces\\IIncomeRepo.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\IIncomeRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T08:19:36.092Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

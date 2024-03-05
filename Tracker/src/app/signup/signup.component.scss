@@ -1,0 +1,47 @@
+
+
+.cont {
+    padding-top: 50px; 
+    background-color: #E6E6FA;
+    height:100vh;
+    width:100vw;
+}
+
+.card {
+    background-color: #FFFFFF; // White background for the card
+    color: #000000; // Black text for the card
+    border-radius: 10px; // Rounded corners for the card
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
+    max-width: 400px; // Limit the width of the card
+    margin: 0 auto; // Center the card on the page
+}
+
+.card-body {
+    padding: 20px; // Add some padding around the form inside the card
+}
+
+.form-group {
+    margin-bottom: 15px; // Add some space between form groups
+}
+
+label {
+    display: block; // Make labels display as block elements
+    margin-bottom: 5px; // Add some space below labels
+}
+
+input.form-control {
+    border-color: #000000; // Black border for input fields
+    background-color: #FFFFFF; // White background for input fields
+    color: #000000; // Black text for input fields
+}
+
+button.btn-primary {
+    background-color:  rgb(72, 209, 204);// Blue background for the submit button
+    border-color:  rgb(72, 209, 204);// Blue border for the submit button
+    color: #FFFFFF; // White text for the submit button
+    transition: background-color 0.3s ease; // Smooth transition for hover effect
+
+    &:hover {
+        background-color:rgb(48, 25, 52);  // Darker blue background on hover
+    }
+}

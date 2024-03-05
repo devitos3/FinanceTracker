@@ -1,0 +1,72 @@
+<div class="d-flex">
+  <div class="p-2 flex-shrink-0">
+     <h2 class="dashboard-heading">Dashboard</h2> 
+     <ul class="nav flex-column">
+       <li class="nav-item">
+         <a class="nav-link active" routerLink="/income">Income</a> 
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" routerLink="/expense"> Expense</a> 
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" routerLink="/budget"> Budget</a> 
+       </li>
+       <li class="nav-item">
+          <a class="nav-link" routerLink="/history"> Transaction</a> 
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/Goal"> Goal</a> 
+        </li>
+         <li class="nav-item">
+          <button class="btn btn-danger btn-link nav-link" (click)="logout()">Logout</button>
+        </li>
+     </ul>
+  </div>
+
+
+<!--Main chart component-->
+
+    <div class="p-2 w-100">
+       
+       <div class="row">
+         
+         <div class="col-md-6">
+           <div class="card">
+             <div class="card-body">
+               <h5 class="card-title">Income by Category</h5>
+               <app-income-bar-graph></app-income-bar-graph>
+             </div>
+           </div>
+         </div>
+         <!-- Income Pie Chart Card -->
+         <div class="col-md-6">
+           <div class="card">
+             <div class="card-body">
+               <h5 class="card-title">Income by Category (Pie Chart)</h5>
+               <app-income-pie-chart></app-income-pie-chart>
+             </div>
+           </div>
+         </div>
+         <!-- Expense bar graph card -->
+         <div class="col-md-6">
+           <div class="card">
+             <div class="card-body">
+               <h5 class="card-title">Expense by Category</h5>
+               <app-expense-bar-graph></app-expense-bar-graph>
+             </div>
+           </div>
+         </div>
+         <!-- Expense pie chart -->
+         <div class="col-md-6">
+           <div class="card">
+             <div class="card-body">
+               <h5 class="card-title">Expense by Category(Pie Chart)</h5>
+               <app-expense-pie-chart></app-expense-pie-chart>
+             </div>
+           </div>
+         </div>
+       </div>
+    </div>
+    <router-outlet></router-outlet>
+   </div>
+   

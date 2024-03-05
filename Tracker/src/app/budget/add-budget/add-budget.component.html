@@ -1,0 +1,33 @@
+
+
+<!-- add-budget.component.html -->
+<div class="cont">
+   <div class="row justify-content-center">
+       <div class="col-md-8">
+        <button type="button" class="btn btn-secondary" onclick="history.back()" style="position: absolute; top: 10px; left: 10px;">Back</button>
+           <div class="card">
+               <div class="card-body">
+                   <h5 class="text-center">Add your budget</h5>
+                   <form [formGroup]="budgetForm" (ngSubmit)="onSubmit()">
+                       <div class="form-group">
+                           <label for="Category">Category:</label>
+                           <input id="Category" type="text" formControlName="Category" class="form-control">
+                       </div>
+                       <div class="form-group">
+                           <label for="BudgetLimit">Budget Limit:</label>
+                           <input id="BudgetLimit" type="number" formControlName="BudgetLimit" class="form-control">
+                       </div>
+                       <div class="form-group">
+                           <label for="CurrentSpending">Current Spending:</label>
+                           <input id="CurrentSpending" type="number" formControlName="CurrentSpending" class="form-control">
+                       </div>
+                       <button class="btn btn-danger" type="submit">Add Budget</button>
+                   </form>
+                   <div *ngIf="showMsg" class="alert alert-success mt-3">
+                       <strong>Budget added successfully!</strong>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+</div>

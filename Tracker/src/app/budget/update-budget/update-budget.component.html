@@ -1,0 +1,41 @@
+
+
+  <!-- update-budget.component.html -->
+<div class="cont">
+   <div class="row justify-content-center">
+       <div class="col-md-8">
+        <button type="button" class="btn btn-secondary" onclick="history.back()" style="position: absolute; top: 10px; left: 10px;">Back</button>
+           <div class="card">
+               <div class="card-body">
+                   <h5 class="text-center">Update your budget</h5>
+                   <div *ngIf="budget">
+                       <form [formGroup]="budgetForm" (ngSubmit)="onSubmit()">
+                           <!-- <div class="form-group">
+                               <label for="budgetID">Budget ID:</label>
+                               <input id="budgetID" type="number" formControlName="budgetID" class="form-control">
+                           </div>
+                           <div class="form-group">
+                               <label for="userID">User ID:</label>
+                               <input id="userID" type="number" formControlName="userID" class="form-control">
+                           </div> -->
+                           <div class="form-group">
+                               <label for="category">Category:</label>
+                               <input id="category" type="text" formControlName="category" class="form-control">
+                           </div>
+                           <div class="form-group">
+                               <label for="budgetLimit">Budget Limit:</label>
+                               <input id="budgetLimit" type="number" formControlName="budgetLimit" class="form-control">
+                           </div>
+                           <div class="form-group">
+                               <label for="currentSpending">Current Spending:</label>
+                               <input id="currentSpending" type="number" formControlName="currentSpending" class="form-control">
+                           </div>
+                           <button class="btn btn-danger" type="submit">Update Budget</button>
+                       </form>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+</div>
+

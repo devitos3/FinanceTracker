@@ -1,0 +1,39 @@
+
+<div class="cont">
+  <div class="row justify-content-center">
+      <div class="col-md-8">
+        <button type="button" class="btn btn-secondary" onclick="history.back()" style="position: absolute; top: 10px; left: 10px;">Back</button>
+          <div class="card">
+              <div class="card-body">
+                  <h5 class="text-center">Add your goal</h5>
+                  <form [formGroup]="goalForm" (ngSubmit)="onSubmit()">
+                      <div class="form-group">
+                          <label for="goalName">Goal Name:</label>
+                          <input id="goalName" type="text" formControlName="goalName" class="form-control">
+                      </div>
+                      <div class="form-group">
+                          <label for="currentAmount">Current Amount:</label>
+                          <input id="currentAmount" type="number" formControlName="currentAmount" class="form-control">
+                      </div>
+                      <div class="form-group">
+                          <label for="targetAmount">Target Amount:</label>
+                          <input id="targetAmount" type="number" formControlName="targetAmount" class="form-control">
+                      </div>
+                      <div class="form-group">
+                          <label for="goalStart">Goal Start Date:</label>
+                          <input id="goalStart" type="date" formControlName="goalStart" class="form-control">
+                      </div>
+                      <div class="form-group">
+                          <label for="goalComplete">Goal Complete Date:</label>
+                          <input id="goalComplete" type="date" formControlName="goalComplete" class="form-control">
+                      </div>
+                      <button class="btn btn-primary" type="submit">Add Goal</button>
+                  </form>
+                  <div *ngIf="showMsg" class="alert alert-success mt-3">
+                      <strong>Goal added successfully!</strong>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>

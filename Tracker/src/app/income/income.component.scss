@@ -1,0 +1,108 @@
+// // income.component.scss
+
+// .container {
+//     padding-top: 50px; // Add some padding to the top to ensure the card is not too close to the top of the page
+// }
+
+// .card {
+//     background-color: #FFFFFF; // White background for the card
+//     color: #000000; // Black text for the card
+//     border-radius: 10px; // Rounded corners for the card
+//     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
+//     max-width: 800px; // Limit the width of the card
+//     margin: 0 auto; // Center the card on the page
+// }
+
+// .card-body {
+//     padding: 20px; // Add some padding around the content inside the card
+// }
+
+// table {
+//     margin-top: 20px; // Add some space above the table
+// }
+
+// .btn-primary, .btn-danger {
+//     background-color: #007BFF; // Turquoise background for primary and danger buttons
+//     border-color: #007BFF; // Turquoise border for primary and danger buttons
+//     color: #FFFFFF; // White text for primary and danger buttons
+//     transition: background-color 0.3s ease; // Smooth transition for hover effect
+
+//     &:hover {
+//         background-color: #0056b3; // Darker turquoise background on hover
+//     }
+// }
+
+// .d-flex {
+//     margin-top: 20px; // Add some space above the buttons
+// }
+
+// income.component.scss
+
+.cont {
+    padding-top: 50px; // Add some padding to the top to ensure the card is not too close to the top of the page
+    background-color: #E6E6FA;
+    height:100vh;
+}
+
+.card {
+    background-color: #FFFFFF; // White background for the card
+    color: #000000; // Black text for the card
+    border-radius: 10px; // Rounded corners for the card
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
+    max-width: 800px; // Limit the width of the card
+    margin: 0 auto; // Center the card on the page
+}
+
+.card-body {
+    padding: 20px; // Add some padding around the content inside the card
+}
+
+table {
+    margin-top: 20px; // Add some space above the table
+}
+
+.btn-primary {
+    background-color: rgb(72, 209, 204); // Turquoise background for primary buttons
+    border-color: rgb(72, 209, 204); // Turquoise border for primary buttons
+    color: #FFFFFF; // White text for primary buttons
+    transition: background-color 0.3s ease; // Smooth transition for hover effect
+
+    &:hover {
+        background-color: #0056b3; // Darker turquoise background on hover
+    }
+}
+
+.btn-danger {
+    background-color: rgb(128, 88, 192); // Light purple background for danger buttons
+    border-color: rgb(195, 177, 225); // Light purple border for danger buttons
+    color: #FFFFFF; // White text for danger buttons
+    transition: background-color 0.3s ease; // Smooth transition for hover effect
+
+    &:hover {
+        background-color: #0056b3; // Darker purple background on hover
+    }
+}
+
+.d-flex {
+    margin-top: 20px; // Add some space above the buttons
+}
+
+// Additional styling for spacing between buttons
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn-group .btn {
+    flex: 1;
+    margin-right: 10px; // Add space between buttons
+}
+
+.btn-group .btn:last-child {
+    margin-right: 0; // Remove margin from the last button
+}
+.btn-secondary{
+    background-color:  rgb(128, 88, 192);
+    border-color:  rgb(128, 88, 192);
+}
