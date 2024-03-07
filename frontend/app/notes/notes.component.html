@@ -1,0 +1,35 @@
+<!-- <div class="cont">
+    <div class="notes-container">
+        <button type="button" class="btn btn-secondary" onclick="history.back()" style="position: absolute; top: 10px; left: 10px;background-color: rgb(128, 88, 192);
+    border-color: rgb(195, 177, 225);">Back</button>
+        <h5 class="text-center">Notes</h5>
+        &nbsp;
+        <div *ngFor="let note of notes" class="note-card">
+            &nbsp;
+            <h3>{{ note.content }}</h3>
+            <p>Created: {{ note.noteCreated | date }}</p>
+            <button class="delete-button" (click)="deleteNote(note.noteID)">Delete</button>
+        </div>
+        <div class="center-button-container">
+
+            <button class="add-notes-button" (click)="navigateToAddNotes()">Add New Note</button>
+        </div>
+    </div>
+</div> -->
+
+<div class="cont">
+    <div class="notes-container">
+        <button type="button" class="btn btn-secondary" onclick="history.back()" style="position: absolute; top: 10px; left: 10px;background-color: rgb(128, 88, 192); border-color: rgb(195, 177, 225);">Back</button>
+        <h5 class="text-center">Notes</h5>
+        <div class="notes-row">
+            <div *ngFor="let note of notes" class="note-card">
+                <h3>{{ note.content }}</h3>
+                <p>Created: {{ note.noteCreated | date }}</p>
+                <button class="delete-button" (click)="deleteNote(note.noteID)">Delete</button>
+            </div>
+        </div>
+        <div class="center-button-container">
+            <button class="add-notes-button" (click)="navigateToAddNotes()">Add New Note</button>
+        </div>
+    </div>
+</div>

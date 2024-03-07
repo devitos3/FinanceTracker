@@ -1,0 +1,54 @@
+.cont{
+    padding-top: 50px;
+    background-color: #E6E6FA;
+    height:100vh; // Light lavender color for the rest of the page
+}
+
+.card {
+    background-color: #FFFFFF; // White background for the card
+    color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input.form-control {
+    border-color: #000000;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+button.btn-primary {
+    background-color: rgb(72, 209, 204);
+    border-color: rgb(72, 209, 204);
+    color: #FFFFFF;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color:rgb(48, 25, 52);
+    }
+}
+.btn-secondary{
+    background-color: rgb(128, 88, 192); // Light purple background for danger buttons
+    border-color: rgb(195, 177, 225); // Light purple border for danger buttons
+    color: #FFFFFF; // White text for danger buttons
+    transition: background-color 0.3s ease; // Smooth transition for hover effect
+
+    &:hover {
+        background-color: #0056b3; // Darker purple background on hover
+    }
+}

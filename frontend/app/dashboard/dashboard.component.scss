@@ -1,0 +1,103 @@
+.d-flex {
+    display: flex;
+    flex-direction: row;
+    height: 100vh; // Ensure the dashboard fits within 100vh
+    overflow: hidden; // Prevent scrolling
+   }
+   
+   .p-2 {
+    padding: 1rem;
+   }
+   
+   .flex-shrink-0 {
+    flex-shrink: 0;
+   }
+   
+   .w-100 {
+    width: 100%;
+   }
+   
+   .nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color:#00CED1; // Black background for the nav
+    color: #fff; // White text for the nav
+    width: 200px; // Adjust the width as needed
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; // Align items to the start
+   }
+   
+   .nav-item {
+    margin-bottom: 0.5rem; // Reduce the space between items
+   }
+   
+   .nav-link {
+    color: #fff; // White text for the nav links
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center; // Align icons and text
+    transition: background-color 0.3s ease;
+   }
+   
+   .nav-link:hover {
+    background-color:#734f96; // Blue background on hover
+   }
+   
+   .card {
+    background-color: #fff; // White background for the cards
+    border: 1px solid #ddd; // Light grey border for the cards
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); // Add a shadow for depth
+    backdrop-filter: blur(10px); // Glass shadow effect
+    -webkit-backdrop-filter: blur(10px); // For Safari
+    height: 350px; // Set a consistent height for all cards
+    overflow: hidden; // Ensure content does not overflow the card
+   }
+   
+   .card-body {
+    padding: 1rem;
+    
+   }
+   
+   .card-title {
+    margin-bottom: 0.5rem;
+    color: #000; // Black text for the card titles
+   }
+   
+   .dashboard-heading {
+    margin-bottom: 1rem;
+    color: #000; // Black text for the dashboard heading
+   }
+   
+   // Responsive styles
+   @media (max-width: 768px) {
+    .d-flex {
+       flex-direction: column;
+    }
+   
+    .p-2 {
+       padding: 0.5rem;
+    }
+   
+    .nav {
+       width: 100%;
+       height: auto;
+       flex-direction: row;
+       justify-content: space-around;
+    }
+   
+    .nav-item {
+       margin-bottom: 0;
+    }
+   
+    .nav-link {
+       padding: 0.25rem 0.5rem;
+    }
+   }
+   
+   

@@ -1,0 +1,48 @@
+
+<div class="cont">
+  <div class="row justify-content-center">
+      <div class="col-md-8">
+        <button type="button" class="btn btn-secondary" onclick="history.back()" style="position: absolute; top: 10px; left: 10px;">Back</button>
+          <div class="card">
+              <div class="card-body">
+                  <h5 class="text-center">Expense</h5>
+                  <div class="alert alert-warning" role="alert" *ngIf="currentNotification">
+                      <h4 class="alert-heading">Recurring Expense Reminder</h4>
+                      <p>Your bill payment for {{currentNotification.category}} is due today.</p>
+                  </div>
+                  <table class="table table-striped">
+                      <thead>
+                          <tr>
+                              <th>Category</th>
+                              <th>Payment Method</th>
+                              <th>Amount</th>
+                              <th>Date</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr *ngFor="let expense of expenses">
+                              <td>{{ expense.category }}</td>
+                              <td>{{ expense.paymentMethod }}</td>
+                              <td>${{ expense.amount }}</td>
+                              <td>{{ expense.date | date }}</td>
+                              <td>
+                                <div class="btn-group">
+                                  <a (click)="routeToUpdateExpense(expense.expenseID)" class="btn btn-primary">Update</a>
+                                  <button class="btn btn-danger" (click)="deleteExpense(expense.expenseID)">Delete</button>
+                                </div>
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+                  <p>Total Expenses: ${{ totalExpenses }}</p>
+                  <div class="btn-group">
+                  <button (click)="navigateToAddExpense()" class="btn btn-primary">Add Expense</button>
+                  <button (click)="exportExpenseToExcel()" class="btn btn-primary">Export  to Excel</button>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<router-outlet></router-outlet>

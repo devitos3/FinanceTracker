@@ -1,0 +1,29 @@
+// app.component.scss
+
+:host {
+    display: block;
+    height: 100vh;
+    background: rgb(2,0,36);
+background-image:  url("landing.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+    color: #FFFFFF; 
+}
+
+#header-text {
+    text-align: center;
+    padding: 20px; 
+}
+
+.btn-primary, .btn-secondary {
+    background-color: rgb(128, 88, 192);
+    border-color:rgb(128, 88, 192) ; 
+    color: #FFFFFF; 
+    margin-right: 10px; 
+    font-size:22px;
+
+    &:hover {
+        background-color: #FFFFFF; 
+        color: #000000;
+    }
+}

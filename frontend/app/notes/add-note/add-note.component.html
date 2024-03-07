@@ -1,0 +1,59 @@
+<!-- <p>add-note works!</p>
+<div class="add-notes-container">
+    <h2>Add a New Note</h2>
+    <form [formGroup]="noteForm" (ngSubmit)="onSubmit()">
+      
+       <input type="hidden" formControlName="UserID">
+       
+       <div class="form-group">
+         <label for="content">Content:</label>
+         <textarea id="content" formControlName="Content" rows="4" cols="50" placeholder="Enter your note here..."></textarea>
+       </div>
+
+       <div class="form-group">
+        <label for="noteCreated">Date Created:</label>
+        <input type="date" id="noteCreated" formControlName="NoteCreated">
+       </div>
+       
+       
+      
+       
+       <div class="form-actions">
+         <button type="submit" [disabled]="!noteForm.valid">Add Note</button>
+       </div>
+    </form>
+     
+    <div *ngIf="showMsg" class="message">
+       <p>Note added successfully!</p>
+    </div>
+   </div>
+    -->
+
+    <div class="add-notes-container">
+        <button type="button" class="btn btn-secondary" onclick="history.back()" style="position: absolute; top: 10px; left: 10px;background-color: rgb(128, 88, 192);
+        border-color: rgb(195, 177, 225);">Back</button> 
+        <h2>Add a New Note</h2>
+        <form [formGroup]="noteForm" (ngSubmit)="onSubmit()">
+            <!-- UserID is hidden as it's automatically set -->
+            <input type="hidden" formControlName="UserID">
+            
+            <div class="form-group">
+                <label for="content">Content:</label>
+                <textarea id="content" formControlName="Content" rows="4" cols="50" placeholder="Enter your note here..."></textarea>
+            </div>
+    
+            <div class="form-group">
+                <label for="noteCreated">Date Created:</label>
+                <input type="date" id="noteCreated" formControlName="NoteCreated">
+            </div>
+            
+            <div class="form-actions">
+                <button type="submit" [disabled]="!noteForm.valid">Add Note</button>
+            </div>
+        </form>
+        
+        <div *ngIf="showMsg" class="alert alert-success mt-3">
+            <p>Note added successfully!</p>
+        </div>
+    </div>
+      

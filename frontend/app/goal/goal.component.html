@@ -1,0 +1,30 @@
+
+<div class="cont">
+    <button type="button" class="btn btn-secondary" onclick="history.back()" style="position: absolute; top: 10px; left: 10px;">Back</button>
+   
+   <div class="card">
+       <div class="card-body">
+         <h5 class="text-center">Goals</h5>
+           <div *ngFor="let goal of goals">
+               <h5>{{ goal.goalName }}</h5>
+               <div class="progress">
+                   <div class="progress-bar" role="progressbar" [style.width.%]="calculateProgress(goal)" [attr.aria-valuenow]="calculateProgress(goal)" aria-valuemin="0" aria-valuemax="100">
+                       {{ calculateProgress(goal) }}%
+                   </div>
+               </div>
+               <button (click)="deleteGoal(goal.goalID)" class="btn btn-custom">Delete</button>
+               <p *ngIf="calculateProgress(goal) >= 100">Congratulations!</p>
+               <p *ngIf="calculateProgress(goal) < 100 && calculateProgress(goal) > 50">Halfway there</p>
+               <p *ngIf="calculateProgress(goal) <= 50 && calculateProgress(goal) > 0">Just started</p>
+               <p *ngIf="calculateProgress(goal) === 0">Not started</p>
+           </div>
+       </div>
+   </div>
+   <div class="text-center">
+      <button (click)="navigateToAddGoal()" class="btn btn-custom">Add Goal</button>
+   
+   </div>
+</div>
+
+
+<router-outlet></router-outlet>

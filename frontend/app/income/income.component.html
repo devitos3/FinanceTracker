@@ -1,0 +1,50 @@
+
+<div class="cont">
+  <div class="row justify-content-center">
+    
+      <div class="col-md-8">
+        <button type="button" class="btn btn-secondary" onclick="history.back()" style="position: absolute; top: 10px; left: 10px;">Back</button>
+          <div class="card">
+              <div class="card-body">
+                  <h5 class="text-center">Income </h5>
+                  <button (click)="sortIncomes()" class="btn btn-secondary mb-3">Sort by Date</button>
+                  <table class="table table-striped">
+                      <thead>
+                          <tr>
+                              <th>Category</th>
+                              <th>Payment Method</th>
+                              <th>Amount</th>
+                              <th>Date</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr *ngFor="let income of filteredIncomes">
+                              <td>{{ income.category }}</td>
+                              <td>{{ income.paymentMethod }}</td>
+                              <td>${{ income.amount }}</td>
+                              <td>{{ income.date | date }}</td>
+                              <td>
+                                <div class="btn-group">
+                                  <a (click)="routeToUpdateIncome(income.incomeID)" class="btn btn-primary">Update</a>
+                                  <button class="btn btn-danger" (click)="deleteIncome(income.incomeID)">Delete</button>
+                                  </div>
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+                  <p>Total Income: ${{ totalIncome }}</p>
+                  <div class="btn-group">
+                      <button (click)="navigateToAddIncome()" class="btn btn-primary">Add Income</button>
+                      <button (click)="navigateToTrackIncome()" class="btn btn-primary">Track Income</button>
+                      <br>
+                      <button (click)="exportIncomesToExcel()" class="btn btn-primary">Export  to Excel</button>
+
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<router-outlet></router-outlet>
+
+

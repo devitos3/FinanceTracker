@@ -1,0 +1,63 @@
+
+
+.cont {
+    padding-top: 50px; 
+    background-color: #E6E6FA;
+    height:100vh;
+    width:100vw;
+}
+
+.card {
+    background-color: #FFFFFF; 
+    color: #000000; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto; 
+}
+
+.card-body {
+    padding: 20px; 
+}
+
+.form-group {
+    margin-bottom: 15px; 
+}
+
+label {
+    display: block; 
+    margin-bottom: 5px; 
+}
+
+input.form-control {
+    border-color: #000000; 
+    background-color: #FFFFFF; 
+    color: #000000;
+}
+
+button.btn-primary {
+    background-color: rgb(72, 209, 204);
+    border-color:  rgb(72, 209, 204);
+    color: #FFFFFF; 
+    transition: background-color 0.3s ease; 
+
+    &:hover {
+        background-color:rgb(48, 25, 52); 
+    }
+}
+.alert {
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+   }
+   
+   .alert-success {
+    background-color: #d4edda;
+    color: #155724;
+   }
+   
+   .alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+   }
+   

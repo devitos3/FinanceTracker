@@ -1,0 +1,45 @@
+
+
+.cont {
+    padding-top: 50px;
+    background-color: #E6E6FA;
+    height:100vh; 
+}
+
+.card {
+    background-color: #FFFFFF; 
+    color: #000000; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.card-body {
+    padding: 20px; 
+}
+
+.form-group {
+    margin-bottom: 15px; 
+}
+
+.btn-danger {
+    background-color: rgb(72, 209, 204); 
+    border-color: rgb(72, 209, 204); 
+    color: #FFFFFF; 
+    transition: background-color 0.3s ease; 
+
+    &:hover {
+        background-color: #0056b3; 
+    }
+}
+.btn-secondary{
+    background-color: rgb(128, 88, 192); 
+    border-color: rgb(195, 177, 225); 
+    color: #FFFFFF; 
+    transition: background-color 0.3s ease; 
+
+    &:hover {
+        background-color: #0056b3; 
+    }
+}

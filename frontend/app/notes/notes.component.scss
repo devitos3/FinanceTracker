@@ -1,0 +1,58 @@
+.notes-container {
+    padding-top: 50px;
+    background-color: #E6E6FA;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; // Stack items vertically
+    align-items: center; // Center items horizontally
+    justify-content: center; // Center items vertically
+    gap: 20px; // Add space between items
+}
+
+.notes-row {
+    display: flex; // Use Flexbox for layout
+    flex-wrap: wrap; // Allow items to wrap onto new lines
+    justify-content: center; // Center items horizontally
+    gap: 20px; // Add space between cards
+}
+
+.note-card {
+    background-color: rgb(183, 241, 242); // Pastel turquoise background
+    color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px; // Smaller width for square containers
+    height: 250px; // Smaller height for square containers
+    display: flex; // Use flexbox for content alignment
+    flex-direction: column; // Stack content vertically
+    justify-content: space-between; // Distribute space between content
+    margin-bottom: 20px; // Additional margin for spacing between cards and the button
+}
+
+.delete-button {
+    background-color: rgb(128, 88, 192);
+    border-color: rgb(195, 177, 225);
+    color: #FFFFFF;
+    transition: background-color 0.3s ease;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #0056b3;
+    }
+}
+
+.add-notes-button {
+    background-color: rgb(72, 209, 204); // Use specified color
+    border-color: rgb(72, 209, 204);
+    color: #FFFFFF;
+    transition: background-color 0.3s ease;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; // Additional margin for spacing between cards and the button
+    width: 100%; // Make the button full width for better alignment
+    text-align: center; // Center the button text
+}
